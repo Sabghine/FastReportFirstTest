@@ -26,7 +26,7 @@ namespace FastReportTutorial.Controllers
             List<Models.Assure> assu = new List<Models.Assure>();
             assu.Add(new Models.Assure() { FirstName = "Sabrine", LastName = "Mokhtar", ContactNo = "26987452" });
             //assu.Add(new Models.Assure() { FirstName = "Ahmed" , LastName = "Mezghani" , ContactNo = "26987452"});
-           // assu.Add(new Models.Assure() { FirstName = "Amine" , LastName = "Douiri" , ContactNo = "26987452"});
+            //assu.Add(new Models.Assure() { FirstName = "Amine" , LastName = "Douiri" , ContactNo = "26987452"});
 
             rep.RegisterData(assu, "AssureRef");
 

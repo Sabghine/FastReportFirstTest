@@ -14,5 +14,6 @@ namespace FastReportTutorial
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
         }
+
     }
 }
