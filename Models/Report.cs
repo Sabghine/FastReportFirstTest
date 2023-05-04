@@ -9,7 +9,7 @@ namespace FastReportTutorial.Models
     {
         public int ReportId { get; set; }
         public string ReportName { get; set; }
-        public string ReportData { get; set; }
+        public byte[] ReportData { get; set; }
         public DateTime ReportDate { get; set; }
     }
 }
